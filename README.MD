@@ -30,9 +30,9 @@
 <br> wave run --no-reload steam_stats.py
 5. Go to http:<localhost|server ip>:10101
 <img width="1240" alt="Screen Shot 2021-09-25 at 7 51 42 PM" src="https://user-images.githubusercontent.com/13601376/134791652-454185ae-4f30-4777-b54d-5f9fc22a8642.png">
-6. Get your steam logs from Steam (need admin account and upload it)
-7. View main Dashboard
+6. Get your steam logs from Steam (need admin account) and Click Browse and Upload to upload the log to the App<br>
+7. View main Dashboard<br>
 <img width="1336" alt="Screen Shot 2021-09-25 at 7 53 00 PM" src="https://user-images.githubusercontent.com/13601376/134791665-165778d0-0d4c-4b81-b54d-49317b88801a.png">
-8. Click "Drilldown" on the left to get nice graphs!
+8. Click "Drilldown" on the left to get nice graphs!<br>
 <img width="1409" alt="Screen Shot 2021-09-25 at 7 53 09 PM" src="https://user-images.githubusercontent.com/13601376/134791675-d086c037-302a-418f-aead-480463f9056e.png">
 
