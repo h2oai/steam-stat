@@ -18,9 +18,35 @@
 * Upload feature for uploading a sessions.csv file
 * Generate KPI Dashboard, Visuals
 
-
 <hr>
-
+<h3> What Stats are possible with Steam Logs ?</h3>
+<h4> Main Dashboard </h4>
+ <p>
+ The main dashboard (after you upload the logs), shows you the logs themselves, which you can scroll/sort on any column etc.,<p>
+   
+ The "Peak usage by the day" table basically breaks down day level information on the entire range of the data. Basically you get "Peak Sessions", "Peak CPUs", "Peak GPUs", "Unique Users" etc., 
+ <p>
+  <b>Sessions</b>: A session is basically a record in the log that represents the duration of a 'start'/'stop' event of a Driverless AI or H2O-3 instance. Depending on the workload, the session can last anywhere from a few minutes to a few days! So basically our reports chops those sessions into day activities and you get rollups per day!
+<p>
+The Summary table shows you the following info for the entire log duration:
+<ul>
+  <li> Log Start
+  <li> Log End
+  <li> Total Hours of use
+  <li> Total Sessions
+  <li> # of Unique users
+  <li> Max Daily Users
+  <li> Max Daily CPUs
+  <li> Max Daily GPUs
+  <li> # of Days that there were no sessions ! (inactive day basically)
+</ul><p>
+  
+<h4> Drill Down Charts </h4>
+<p>
+You can also get insights using drill down charts to see:<br>
+Unique users and Peak Sessions (basically day level count) for each day in the log duration - including days that there was no activity. You can also see the how many sessions were present across different versions of Driverless AI and H2O-3 installed on Steam<p>
+The top 10 power users in terms of in terms of # of Sessions and # of hours used is also available as chart<p>
+  
 <h3> How to run it on your Desktop or an ubuntu server ?</h3>
 
 1. Create a virtualenv python 3.7 (which worked for me) and activate an environment
