@@ -66,3 +66,8 @@ The top 10 power users in terms of in terms of # of Sessions and # of hours used
 9. Click "Drilldown" on the left to get nice graphs!<p>
 <img width="1409" alt="Screen Shot 2021-09-25 at 7 53 09 PM" src="https://user-images.githubusercontent.com/13601376/134791675-d086c037-302a-418f-aead-480463f9056e.png"><p>
 10. Hit "Back" to go back to main Dashboard<p>
+
+<h4> New feature request/bugs </h4>
+   <b>Bugs</b>: Just file an issue  from "issues" tab with a screenshot<p>
+   <b>Feature Request</b>: Need info. on what kind of chart or table or a rollup would be interesting in your deployment. If the logs support underlying data, it should be easy for me to add that to the code. In most cases, you should be able to change the code yourself :) and let me know what you did and Im happy to merge that to the main code if it makes sense.
+   
