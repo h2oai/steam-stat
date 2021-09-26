@@ -17,3 +17,15 @@
 **Features:**
 * Upload feature for uploading a sessions.csv file
 * Generate KPI Dashboard, Visuals
+
+
+<hr>
+
+<h3> How to run it on your Desktop or an ubuntu server ?</h3>
+
+1. Create a virtualenv python 3.7 (which worked for me) and activate an environment
+2. Get latest wave targz from wave.h2o.ai
+3. Run waved (wave server)
+4. Run 
+<br> wave run --no-reload steam_stats.py
+5. Go to http:<localhost|server ip>:10101
