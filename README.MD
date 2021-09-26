@@ -19,6 +19,8 @@
 * Generate KPI Dashboard, Visuals
 
 <hr>
+<b>Author:</b> <i>karthik.guruswamy@h2o.ai</i> <p>
+   
 <h3> What Stats are possible with Steam Logs ?</h3>
 <h4> Main Dashboard </h4>
  <p>
