@@ -21,7 +21,7 @@
 <hr>
 <b>Author:</b> <i>karthik.guruswamy@h2o.ai</i> <p>
    
-<h3> What Stats are possible with Steam Logs ?</h3>
+<h3> What Stats are possible in this App with Steam Logs ?</h3>
 <h4> Main Dashboard </h4>
  <p>
  The main dashboard (after you upload the logs), shows you the logs themselves, which you can scroll/sort on any column etc.,<p>
