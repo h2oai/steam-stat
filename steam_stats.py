@@ -5,7 +5,7 @@
 #
 # Author: Karthik Guruswamy, karthik.guruswamy@h2o.ai
 #
-# Last updated: Sep 23, 2021
+# Last updated: Oct 26, 2021
 #
 
 import os
@@ -134,17 +134,17 @@ def render_table_summary_info(q: Q):
     items = [ui.separator(label='Raw Dataset')]
     items.append(ui.text_xl(os.path.basename(q.client.working_file_path)))
     items.append(make_ui_table(file_path=q.client.working_file_path,n_rows=10000, name='head_of_table'))
-    q.page['table'] = ui.form_card(box='3 2 8 4', items=items)
+    q.page['table'] = ui.form_card(box='3 2 9 6', items=items)
 
     # Peak Usage view
     peak_usage = [ui.separator(label='Peak Usage by Day')]
     peak_usage.append(make_ui_processed(file_path=q.client.working_file_path,name='peak_by_day_stats'))
-    q.page['peak_usage'] = ui.form_card(box='6 6 5 7',items=peak_usage)
+    q.page['peak_usage'] = ui.form_card(box='6 8 6 -1',items=peak_usage)
 
     # Summary view
     summary = [ui.separator(label='Summary')]
     summary.append(make_ui_summary(file_path=q.client.working_file_path,name='summary'))
-    q.page['summary_view'] = ui.form_card(box='3 6 3 7',items=summary)
+    q.page['summary_view'] = ui.form_card(box='3 8 3 -1',items=summary)
 
     # Setup the 'Drill Down' button
     drill_button = [ui.button(name='drill_button', label='Drill Down  >>', primary=True)]
@@ -162,7 +162,8 @@ def make_ui_table(file_path: str, n_rows: int, name: str):
             name=name,
             columns=[ui.table_column(name=str(x), label=str(x), sortable=True) for x in df.columns.values],
             rows=[ui.table_row(name=str(i), cells=[str(df[col].values[i]) for col in df.columns.values])
-                      for i in range(n_rows)]
+                      for i in range(n_rows)],
+            groupable=True,
     )
     return table
 
@@ -277,7 +278,8 @@ def make_ui_summary(file_path: str, name: str):
             name=name,
             columns=[ui.table_column(name=str(x), label=str(x), sortable=True) for x in df_render.columns.values],
             rows=[ui.table_row(name=str(i), cells=[str(df_render[col].values[i]) for col in df_render.columns.values])
-                      for i in range(14)]
+                      for i in range(14)],
+            downloadable=True
     )
     return table
 
@@ -381,7 +383,8 @@ def make_ui_processed(file_path: str, name: str):
             columns=[ui.table_column(name=str(x), label=str(x), sortable=True,  data_type= np.where(re.search(r'Peak|Users', x),
                                                'number', 'string').item()) for x in df_render.columns.values],
             rows=[ui.table_row(name=str(i), cells=[str(df_render[col].values[i]) for col in df_render.columns.values])
-                      for i in range(n_rows)]
+                      for i in range(n_rows)],
+            downloadable=True
     )
 
     return table
@@ -441,7 +444,7 @@ def render_charts(q:Q):
                 from sessions
             group by 1
             order by 2 desc
-            limit 10
+            limit 15
         """
 
     user_usage = psql.sqldf(qq, locals())
@@ -459,7 +462,7 @@ def render_charts(q:Q):
     
     q.page['user_usage'] = ui.vega_card(
                                 box='7 6 4 4',
-                                title='Top 10 Power Users by Sessions/Hours',
+                                title='Top 15 Power Users by Sessions/Hours',
                                 specification=spec,
                             )
     
