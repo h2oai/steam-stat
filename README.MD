@@ -1,14 +1,14 @@
 <h1> Steam Stats App </h1>
 
 **App Goal:** To take the file sessions.csv from customer Steam usage and generate insights
-
+  
 **Target Audience:** H2O SE/AE/CSM/TAM, Customers
 
 **Industry:** Horizontal
 
 **Actively Being Maintained:** Yes
 
-**Last Updated:** Mar 26th, 2021
+**Last Updated:** Oct 27, 2021
 
 **Comes with Demo Mode (pre-loaded data, models, results, etc.):** No
 
@@ -16,7 +16,12 @@
 
 **Features:**
 * Upload feature for uploading a sessions.csv file
+* Group by on key fields to get row counts
 * Generate KPI Dashboard, Visuals
+* Download Usage Summary/Daily Peak Usage data
+
+**GitHub:** http://www.github.com/h2oai/steam-stat
+
 
 <hr>
 <b>Author:</b> <i>karthik.guruswamy@h2o.ai</i> <p>
@@ -24,7 +29,7 @@
 <h3> What Stats are possible in this App with Steam Logs ?</h3>
 <h4> Main Dashboard </h4>
  <p>
- The main dashboard (after you upload the logs), shows you the logs themselves, which you can scroll/sort on any column etc.,<p>
+ The main dashboard (after you upload the logs), shows you the logs themselves, which you can scroll/sort/group by on any column etc.,<p>
    
  The "Peak usage by the day" table basically breaks down day level information on the entire range of the data. Basically you get "Peak Sessions", "Peak CPUs", "Peak GPUs", "Unique Users" etc., 
  <p>
@@ -42,7 +47,8 @@ The Summary table shows you the following info for the entire log duration:
   <li> Max Daily GPUs
   <li> # of Days that there were no sessions ! (inactive day basically)
 </ul><p>
-  
+Both the Peak Usage and Summary information can be downloaded into a CSV, so you can format/chart it in Excel or an Editor of your choice.
+   
 <h4> Drill Down Charts </h4>
 <p>
 You can also get insights using drill down charts to see:<br>
