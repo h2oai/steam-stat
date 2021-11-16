@@ -25,7 +25,15 @@
 
 <hr>
 <b>Author:</b> <i>karthik.guruswamy@h2o.ai</i> <p>
-   
+<h3> Where to find the Steam Driverless AI Logs ? </h3>
+You need to be an Admin on Steam to access the logs. See below on where to get it from:
+
+<img width="679" alt="Screen Shot 2021-11-16 at 4 38 56 PM" src="https://user-images.githubusercontent.com/13601376/141975249-b28ebe93-faeb-4f5b-9ddd-49be03b9c6ef.png">
+
+Its a CSV file that has the name driverless-report-xyz.csv
+
+It should have the entire historical usage of Driverless AI start/stops.
+
 <h3> What Stats are possible in this App with Steam Logs ?</h3>
 <h4> Main Dashboard </h4>
  <p>
