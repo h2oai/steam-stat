@@ -1,0 +1,11 @@
+[App]
+Name = "ai.h2o.q.steam-stats"
+Version = "0.5.3"
+Title = "Steam Stats"
+Description = "App processes sessions.csv and generates insights"
+Category = "H2O Tools"
+Keywords = ["steam"]
+LongDescription = "about.md"
+
+[Runtime]
+Module = "steam_stats
