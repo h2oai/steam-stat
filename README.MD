@@ -1,6 +1,6 @@
 <h1> Steam Stats App </h1>
 
-**App Goal:** To take the file sessions.csv from customer Steam usage and generate insights
+**App Goal:** To take the file driverless-report*.csv from customer Steam usage and generate insights
   
 **Target Audience:** H2O SE/AE/CSM/TAM, Customers
 
@@ -15,7 +15,7 @@
 **Allows for Uploading and Using New Data:** Yes
 
 **Features:**
-* Upload feature for uploading a sessions.csv file
+* Upload feature for uploading a driverless-report*.csv file
 * Group by on key fields to get row counts
 * Generate KPI Dashboard, Visuals
 * Download Usage Summary/Daily Peak Usage data
