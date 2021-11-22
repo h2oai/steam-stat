@@ -78,8 +78,8 @@ The top 10 power users in terms of in terms of # of Sessions and # of hours used
 7. Get your steam logs from Steam (need admin account) and Click Browse and Upload to upload the log to the App<p>
 8. View main Dashboard<p>
 <img width="1424" alt="Screen Shot 2021-11-22 at 6 53 30 AM" src="https://user-images.githubusercontent.com/13601376/142883003-38311eda-d0cd-4345-8c9b-75a2ee36a80e.png">
-  You can use the Grouping Feature on top to group by individual fields, gives you a drilldown per group and counts per group<p>
-  You can also use the Filter Timeline feature to filter rows based on various time periods, to compare usage, power users etc., 
+  You can use the Grouping Feature on top, to group by individual fields. This gives you the individual rows per group and also counts per group<p>
+  You can also use the Filter Timeline feature on the left , to filter rows based on various time periods, to compare usage, power users etc., 
 <p>
 9. Click "Drilldown" on the left to get nice graphs!<p>
 <img width="1409" alt="Screen Shot 2021-09-25 at 7 53 09 PM" src="https://user-images.githubusercontent.com/13601376/134791675-d086c037-302a-418f-aead-480463f9056e.png"><p>
