@@ -8,7 +8,7 @@
 
 **Actively Being Maintained:** Yes
 
-**Last Updated:** Oct 27, 2021
+**Last Updated:** Nov 22, 2021
 
 **Comes with Demo Mode (pre-loaded data, models, results, etc.):** No
 
@@ -19,6 +19,7 @@
 * Group by on key fields to get row counts
 * Generate KPI Dashboard, Visuals
 * Download Usage Summary/Daily Peak Usage data
+* Choose timeline to filter rows for above to tell usage story
 
 **GitHub:** http://www.github.com/h2oai/steam-stat
 
