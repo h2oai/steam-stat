@@ -1,6 +1,6 @@
 <h1> Steam Stats App </h1>
 
-**App Goal:** To take the file driverless-report*.csv from customer Steam usage and generate insights
+**App Goal:** To take Driverless AI or H2O-3 STEAM Usage logs and generate Insights
   
 **Target Audience:** H2O SE/AE/CSM/TAM, Customers
 
@@ -8,7 +8,7 @@
 
 **Actively Being Maintained:** Yes
 
-**Last Updated:** Nov 22, 2021
+**Last Updated:** Mar 22, 2023
 
 **Comes with Demo Mode (pre-loaded data, models, results, etc.):** No
 
