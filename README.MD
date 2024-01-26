@@ -66,7 +66,7 @@ The top 10 power users in terms of in terms of # of Sessions and # of hours used
   
 <h3> How to run it on your Desktop or an ubuntu server ?</h3>
 
-1. Create a virtualenv python 3.7 (which worked for me) and activate an environment<p>
+1. Create a virtualenv python 3.10 and above (which worked for me) and activate an environment<p>
 2. Run
 <br> pip install -r requirements.txt<p>
 3. Get latest wave targz from https://wave.h2o.ai/docs/installation and unpack<p>
