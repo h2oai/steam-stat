@@ -69,7 +69,7 @@ The top 10 power users in terms of in terms of # of Sessions and # of hours used
 1. Create a virtualenv python 3.10 and above (which worked for me) and activate an environment<p>
 2. Run
 <br> pip install -r requirements.txt<p>
-3. Get latest wave targz from https://wave.h2o.ai/docs/installation and unpack<p>
+3. Get latest wave - you can get it with pip install above. I tested with h2o wave 1.0.0 <p>
 4. Run waved (wave server)<p>
 5. Run 
 <br> wave run --no-reload steam_stats.py<p>
