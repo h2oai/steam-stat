@@ -1,6 +1,6 @@
 [App]
 Name = "ai.h2o.q.steam-stats"
-Version = "0.6.1"
+Version = "0.6.2"
 Title = "Steam Stats"
 Description = "App processes Steam Driverless AI logs and generates insights"
 Category = "H2O Tools"
