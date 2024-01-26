@@ -8,7 +8,7 @@
 
 **Actively Being Maintained:** Yes
 
-**Last Updated:** Mar 22, 2023
+**Last Updated:** Jan 26, 2024 - to work with wave 1.0.0
 
 **Comes with Demo Mode (pre-loaded data, models, results, etc.):** No
 
